@@ -1,0 +1,128 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: sans-serif;
+}
+
+nav {
+    /* border: 1px solid black; */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 20px;
+    height: 50px;
+    /* background-color: black; */
+    color: white;
+    background: linear-gradient(to right, #833ab4, #ff0660);
+}
+
+nav ul {
+    /* border: 1px solid blue; */
+    list-style: none;
+    display: flex;
+}
+
+nav ul li {
+    /* border: 1px solid red; */
+    padding: 0px 20px;
+    font-size: 20px;
+}
+
+main {
+    min-height: 90vh;
+    /* border: 1px solid black; */
+}
+
+#firstsection {
+    height: 80vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    /* border: 1px solid black; */
+    background: linear-gradient(#833ab4, #ff0660);
+    color: whitesmoke;
+    font-size: 40px;
+
+}
+
+#firstsection p {
+    font-size: 22px;
+    width: 70%;
+    margin-top: 20px;
+}
+
+#firstsection button {
+    margin-top: 20px;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 20px;
+}
+
+
+#secondsection{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+#header{
+    /* border:2px solid black; */
+    padding: 15px 0px;
+    border-bottom: 2px solid black;
+}
+
+#container{
+    width: 100%;
+    height: fit-content;
+    display: flex;
+    align-items: center;
+    padding: 20px;
+    /* border: 1px solid black; */
+    background-color: rgb(227, 220, 220);
+    flex-wrap: wrap;
+    row-gap: 10px;
+    column-gap: 10px;
+}
+
+#card{
+    height: 500px;
+    min-width:350px;
+    flex: 1;
+    /* border: 1px solid blue; */
+    background-color: white;
+    border-radius: 20px;
+}
+
+#card img{
+    width: 100%;
+    height: 60%;
+    object-fit: cover;
+    object-position: center;
+    border-radius: 20px;
+}
+
+#card h3{
+    margin-left: 10px;
+    margin-top: 10px;
+}
+
+#card p{
+    margin-left: 10px;
+    margin-top: 10px;
+}
+
+#card button{
+    margin-left: 10px;
+    margin-top: 10px;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 20px;
+    background-color: black;
+    color: whitesmoke;
+}
